@@ -1,0 +1,48 @@
+:root {
+  --color-white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'Urbanist', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+.product__link,
+.product__link:link,
+.product__link:visited {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav__link:link,
+.nav__link:visited,
+.footer__link:link,
+.footer__link:visited {
+  display: inline-block;
+  text-decoration: none;
+}
